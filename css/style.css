@@ -1,0 +1,155 @@
+/*root and first config*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+.main_container{
+    width: 100vw;
+    height: 100%;
+    background-color: #141414;
+}
+
+/*header*/
+.main_header{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 2% 5%;
+}
+
+.main_header ul{
+    width: 100vw;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main_header ul li{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2rem;
+    padding: 10px;
+}
+.main_header ul li:hover{
+    background-color: white;
+    filter: drop-shadow(2px);
+    border-radius: 20px;
+    color: #1a1a1a;
+}
+
+/*name and skills*/
+
+.name{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.name h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18rem;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 2%;
+    animation-name: entradaTitulo;
+    animation-duration: 3s;
+}
+.principal_skills{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2%;
+    font-weight: 500;
+}
+.principal_skills p{
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 4rem;
+    animation-name: entradaTitulo;
+    animation-duration: 3s;
+}
+
+
+/*image of me*/
+.profile_img{
+    width: 100vw;
+    height: auto;
+}
+.profile_img img{
+    width: 100%;
+    height: 100%;
+}
+
+/*developer work */
+
+.work{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main_work{
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main_work h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 8rem;
+    color: #fff;
+    width: 50%;
+    text-align: center;
+}
+.work_developer{
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3%;
+}
+.item_developer_work{
+    position: relative;
+}
+.item_developer_work:hover{
+    transform: scale(1.05);
+}
+
+
+.item_developer_work img{
+    width: 100%;
+    border: 1px solid #fff;
+}
+.item_developer_work p{
+    color: #fff;
+}
+.text_project{
+    display: flex;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    justify-content: space-between;
+    padding: 1% 0;
+    font-size: 2.5rem;
+}
+.text_project p:last-child{
+    font-size: 1.5rem;
+}
+.text_project p:last-child:hover{
+    transform: scale(1.2);
+}
+
+/*animations */
+
+@keyframes entradaTitulo {
+    from {color: transparent;}
+    to {color: white;}
+  }
