@@ -153,3 +153,27 @@ html{
     from {color: transparent;}
     to {color: white;}
   }
+
+
+
+/*media query*/
+@media screen and (max-width: 600px){
+    .name h1{
+        font-size: 9rem;
+    }
+    .main_header ul li{
+        font-size: 2rem;
+    }
+    .principal_skills p{
+        font-size: 2rem;
+    }
+    .main_work h2{
+        font-size: 4rem;
+    }
+    .text_project{
+        font-size: 1.5rem;
+    }
+    .text_project p:last-child{
+        font-size: 1.25rem;
+    }
+}
