@@ -82,10 +82,29 @@ html{
 .profile_img{
     width: 100vw;
     height: auto;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .profile_img img{
-    width: 100%;
-    height: 100%;
+    width: 30%;
+    height: 30%;
+}
+.profile_info{
+    padding: 2%;
+    color: white;
+
+}
+.profile_info h2{
+    font-size: 4rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+}
+.profile_info p{
+    font-size: 2.4rem;
+    font-family: 'work sans', sans-serif;
+    font-weight: 200;
 }
 
 /*developer work */
@@ -162,13 +181,15 @@ html{
         font-size: 9rem;
     }
     .main_header ul li{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .principal_skills p{
-        font-size: 2rem;
+        font-size: 3rem;
+        text-align: center;
+        padding: 0 20px;
     }
     .main_work h2{
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .text_project{
         font-size: 1.5rem;
@@ -176,4 +197,18 @@ html{
     .text_project p:last-child{
         font-size: 1.25rem;
     }
+    .profile_img{
+        flex-direction: column;
+    }
+    .profile_info h2{
+        font-size: 3rem;
+        font-family: 'Bebas Neue', sans-serif;
+        font-weight: 700;
+    }
+    .profile_info p{
+        font-size: 1.8rem;
+        font-family: 'work sans', sans-serif;
+        font-weight: 200;
+    }
+    
 }
