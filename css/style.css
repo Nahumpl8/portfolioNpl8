@@ -22,6 +22,9 @@ html{
     justify-content: center;
     color: #fff;
     padding: 2% 5%;
+    position: relative;
+    top: 0;
+    transition: top 1.4s ease 1s;
 }
 
 .main_header ul{
@@ -148,6 +151,14 @@ html{
     width: 100%;
     border: 1px solid #fff;
 }
+
+.zoomable {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+
+
 .item_developer_work p{
     color: #fff;
 }
